@@ -1,0 +1,38 @@
+{
+  "name": "@leo-showdar/react-native-smart-empty-state",
+  "version": "0.1.0",
+  "description": "Lightweight React Native utilities for loading, error, empty, offline, and content states.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "source": "src/index.ts",
+  "react-native": "src/index.ts",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "empty-state",
+    "state-view",
+    "flatlist",
+    "loading",
+    "error",
+    "offline",
+    "ui"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-native": ">=0.72.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}
